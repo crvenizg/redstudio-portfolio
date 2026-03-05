@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="RedServices — modern developer portfolio." />
+  <title>RedServices — Portfolio</title>
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Background accents -->
+  <div class="bg-accents" aria-hidden="true">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="nav-wrap">
+    <nav class="container nav">
+      <a class="brand" href="#top" aria-label="RedServices Home">
+        <span class="brand-mark"></span>
+        <span class="brand-text"><span class="brand-red">Red</span>Services</span>
+      </a>
+
+      <button class="icon-btn nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="btn btn-primary" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="container hero section">
+      <div class="hero-left reveal">
+        <div class="badge">
+          <span class="dot"></span>
+          Available for freelance & collaborations
+        </div>
+
+        <h1 class="h1">
+          Building clean, fast, and modern apps & websites.
+        </h1>
+
+        <p class="lead">
+          Welcome to <b>RedServices</b> — a developer portfolio focused on practical products:
+          web apps, mobile utilities, and content-driven platforms with a polished UI.
+        </p>
+
+        <div class="hero-cta">
+          <a class="chip">Web</a>
+          <a class="chip">Mobile</a>
+          <a class="chip">Desktop</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="container section" id="about">
+      <div class="section-head reveal">
+        <h2 class="h2">About RedServices</h2>
+        <p class="muted">
+          A small brand for shipping useful products with modern interfaces and solid engineering.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="card reveal">
+          <div class="card-body">
+            <h3 class="h3">How I work</h3>
+            <p class="muted">
+              I prototype fast, iterate on UI/UX, and then harden the implementation with clean structure.
+              The goal is always: “easy to use” and “easy to maintain”.
+            </p>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-body">
+            <h3 class="h3">What you get</h3>
+            <p class="muted">
+              A modern landing page, a web app, or a mobile utility — shipped with a polished look,
+              good performance, and clear content.
+            </p>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-body">
+            <h3 class="h3">Next step</h3>
+            <p class="muted">
+              If you like the style, send a message and I’ll reply with questions + a quick plan.
+            </p>
+            <a class="btn btn-primary btn-sm" href="#contact">Let’s talk</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container section" id="projects">
+      <div class="section-head reveal">
+        <h2 class="h2">Featured projects</h2>
+        <p class="muted">
+          A selection of projects I’ve built — each one designed to solve a real problem with a modern UX.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- InstrukcijeZaTebe -->
+        <article class="card project reveal">
+          <div class="card-media media-gradient g3" role="img" aria-label="InstrukcijeZaTebe project cover">
+            <div class="media-overlay">
+              <span class="tag">Marketplace</span>
+              <span class="tag">Education</span>
+            </div>
+            <div class="media-title">InstrukcijeZaTebe</div>
+          </div>
+          <div class="card-body">
+            <h3 class="h3">InstrukcijeZaTebe — Tutoring Ads Marketplace</h3>
+            <p class="muted">
+              A simple platform where users can find and post tutoring offers, filter by subject,
+              and contact instructors quickly.
+            </p>
+            <div class="card-actions">
+              <a class="btn btn-ghost btn-sm" href="https://example.com/instrukcijezatebe" target="_blank" rel="noopener">Live demo</a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/yourname/instrukcijezatebe" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- RedCalculator -->
+        <!-- <article class="card project reveal">
+          <div class="card-media media-gradient g4" role="img" aria-label="RedCalculator project cover">
+            <div class="media-overlay">
+              <span class="tag">Website</span>
+              <span class="tag">Math</span>
+            </div>
+            <div class="media-title">RedCalculator</div>
+          </div>
+          <div class="card-body">
+            <h3 class="h3">RedCalculator — Math Video Materials</h3>
+            <p class="muted">
+              A content-driven website for selling math explanation videos with clear pricing,
+              clean typography, and structured topics.
+            </p>
+            <div class="card-actions">
+              <a class="btn btn-ghost btn-sm" href="https://example.com/redcalculator" target="_blank" rel="noopener">Live demo</a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/yourname/redcalculator" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article> -->
+
+        <!-- SCFitness -->
+        <!-- <article class="card project reveal">
+          <div class="card-media media-gradient g1" role="img" aria-label="SCFitness project cover">
+            <div class="media-overlay">
+              <span class="tag">Website</span>
+              <span class="tag">Fitness</span>
+            </div>
+            <div class="media-title">SCFitness</div>
+          </div>
+          <div class="card-body">
+            <h3 class="h3">SCFitness — Fitness Website</h3>
+            <p class="muted">
+              A modern fitness landing experience with clear sections, CTA flow, and a clean layout
+              focused on conversions.
+            </p>
+            <div class="card-actions">
+              <a class="btn btn-ghost btn-sm" href="https://example.com/scfitness" target="_blank" rel="noopener">Live demo</a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/yourname/scfitness" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article> -->
+
+        <!-- CareSupportLink -->
+        <!-- <article class="card project reveal">
+          <div class="card-media media-gradient g2" role="img" aria-label="CareSupportLink project cover">
+            <div class="media-overlay">
+              <span class="tag">App</span>
+              <span class="tag">Healthcare</span>
+            </div>
+            <div class="media-title">CareSupportLink</div>
+          </div>
+          <div class="card-body">
+            <h3 class="h3">CareSupportLink — Elder Care App</h3>
+            <p class="muted">
+              An app concept for supporting seniors and caregivers: reminders, assistance requests,
+              and simplified communication.
+            </p>
+            <div class="card-actions">
+              <a class="btn btn-ghost btn-sm" href="https://example.com/caresupportlink" target="_blank" rel="noopener">Live demo</a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/yourname/caresupportlink" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article> -->
+
+        <!-- Calc4u -->
+        <!-- <article class="card project reveal">
+          <div class="card-media media-gradient g5" role="img" aria-label="Calc4u project cover">
+            <div class="media-overlay">
+              <span class="tag">Mobile</span>
+              <span class="tag">Utility</span>
+            </div>
+            <div class="media-title">Calc4u</div>
+          </div>
+          <div class="card-body">
+            <h3 class="h3">Calc4u — Mobile Calculator</h3>
+            <p class="muted">
+              A mobile-friendly calculator utility focused on speed, clarity, and a pleasant UI
+              that feels native.
+            </p>
+            <div class="card-actions">
+              <a class="btn btn-ghost btn-sm" href="https://example.com/calc4u" target="_blank" rel="noopener">Live demo</a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/yourname/calc4u" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article> -->
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="container section" id="skills">
+      <div class="section-head reveal">
+        <h2 class="h2">Skills & focus</h2>
+        <p class="muted">What I care about when shipping real software.</p>
+      </div>
+
+      <div class="split">
+        <div class="card reveal">
+          <div class="card-body">
+            <h3 class="h3">Product mindset</h3>
+            <p class="muted">
+              I aim for simple user journeys, clear calls-to-action, and layouts that guide attention.
+              Performance and accessibility are treated as features.
+            </p>
+
+            <div class="pill-row">
+              <span class="chip">Clean UI</span>
+              <span class="chip">Responsive</span>
+              <span class="chip">Performance</span>
+              <span class="chip">Accessibility</span>
+              <span class="chip">SEO basics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-body">
+            <h3 class="h3">Tech stack</h3>
+            <p class="muted">
+              Full-stack oriented development with a preference for pragmatic tooling and maintainable code.
+            </p>
+
+            <ul class="list">
+              <li><span class="bullet"></span> HTML / CSS / JavaScript</li>
+              <li><span class="bullet"></span> .NET (WPF, MAUI, ASP.NET Core)</li>
+              <li><span class="bullet"></span> REST APIs / JSON</li>
+              <li><span class="bullet"></span> SQL / PostgreSQL / data modeling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Contact -->
+    <section class="container section" id="contact">
+      <div class="section-head reveal">
+        <h2 class="h2">Contact</h2>
+        <p class="muted">Send a message — I’ll get back to you.</p>
+      </div>
+
+      <!-- <div class="contact-grid"> -->
+        
+        <div class="card reveal">
+          <div class="card-body">
+            <h3 class="h3">Quick links</h3>
+            <div class="contact-links">
+              <div class="contact-link email-row" id="emailRow">
+                <span class="icon">✉</span>
+
+                <!-- mail se složi u JS-u da nije direktno u HTML-u -->
+                <a class="email-text" href="#" id="emailLink" aria-label="Email"></a>
+
+                <button class="copy-btn" type="button" id="copyEmailBtn" aria-label="Copy email">
+                  <!-- simple copy icon -->
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2V7Z"></path>
+                    <path d="M6 17H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span class="sr-only">Copy</span>
+                </button>
+              </div>
+              <a class="contact-link" href="https://www.linkedin.com/in/icrvenkovic" target="_blank" rel="noopener">
+                <span class="icon">in</span> linkedin.com/in/icrvenkovic
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="card reveal">
+          <div class="card-body">
+            <h3 class="h3">Message form</h3>
+            <form id="contactForm" class="form" novalidate>
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="What do you want to build? How can I help you?" required></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Send message</button>
+                <p class="muted small" id="formHint">This demo form shows a success toast (no backend).</p>
+              </div>
+            </form>
+          </div>
+        </div> -->
+    </section>
+
+    <footer class="container footer">
+      <div class="footer-line"></div>
+      <div class="footer-row">
+        <span class="muted small">© <span id="year"></span> RedServices. All rights reserved.</span>
+        <a class="muted small" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
